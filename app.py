@@ -18,6 +18,9 @@ info = buffer.getvalue()
 
 st.title(' Apresentação de Resultados da Análise de Dados Salariais ')
 
+st.write('## Link do GitHub')
+st.link_button('GitHub', url='https://github.com/pedromvba/projeto_regressao_infnet')
+
 st.write('## Objetivo')
 
 st.write('Busca-se a partir do dataset analisado, verificar: (i) quais são os itens que mais influenciam o salário de um empregado e (ii) identificar qual característica influencia mais no salário, escolaridade ou experiência, de forma a direcionar os esforços das personas.')
